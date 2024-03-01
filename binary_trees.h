@@ -57,4 +57,6 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 /* function to find tree's height, starting from given node (9)*/
 size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_depth(const binary_tree_t *tree);
+size_t binary_tree_size(const binary_tree_t *tree);
+
 #endif
